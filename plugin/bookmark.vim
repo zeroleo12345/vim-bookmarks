@@ -20,8 +20,8 @@ function! s:set(var, default)
 endfunction
 
 call s:set('g:bookmark_highlight_lines',      0 )
-call s:set('g:bookmark_sign',                '⚑')
-call s:set('g:bookmark_annotation_sign',     '☰')
+call s:set('g:bookmark_sign',                '#')
+call s:set('g:bookmark_annotation_sign',     '=')
 call s:set('g:bookmark_show_warning',         1 )
 call s:set('g:bookmark_show_toggle_warning',  1 )
 call s:set('g:bookmark_save_per_working_dir', 0 )
